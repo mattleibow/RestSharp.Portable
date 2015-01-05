@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+    <metadata>
+        <id>DotNetDevAddict.RestSharp.Portable</id>
+        <version>0.1.0-beta5</version>
+        <title>RestSharp.Portable</title>
+        <authors>Matthew Leibowitz</authors>
+        <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+        <projectUrl>https://github.com/mattleibow/RestSharp.Portable</projectUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>A fully compatible PCL version of RestSharp.</description>
+        <summary>A fully compatible PCL version of RestSharp.</summary>
+        <copyright>.NET Development Addict</copyright>
+        <tags>restsharp,portable,pcl</tags>
+        <dependencies>
+            <group targetFramework=".NETFramework4.0">
+                <dependency id="RestSharp" version="105.0.1" />
+            </group>
+            <group targetFramework="Silverlight5.0">
+                <dependency id="RestSharp" version="105.0.1" />
+            </group>
+            <group targetFramework="WindowsPhone8.0">
+                <dependency id="RestSharp" version="105.0.1" />
+            </group>
+        </dependencies>
+    </metadata>
+    <files>
+        <file src="RestSharp\RestSharp.Android\bin\Release\RestSharp.Android.dll" target="lib\MonoAndroid10\RestSharp.Android.dll" />
+        <file src="RestSharp.Portable.Android\bin\Release\RestSharp.Portable.dll" target="lib\MonoAndroid10\RestSharp.Portable.dll" />
+        <file src="RestSharp\RestSharp.MonoTouch\bin\Release\RestSharp.MonoTouch.dll" target="lib\MonoTouch10\RestSharp.MonoTouch.dll" />
+        <file src="RestSharp.Portable.MonoTouch\bin\Release\RestSharp.Portable.dll" target="lib\MonoTouch10\RestSharp.Portable.dll" />
+        <file src="RestSharp.Portable.Net4\bin\Release\RestSharp.Portable.dll" target="lib\net40\RestSharp.Portable.dll" />
+        <file src="RestSharp.Portable.PCL\bin\Release\RestSharp.Portable.dll" target="lib\portable-net40+sl50+wpa81+win80+wp80+monoandroid10+monotouch10+xamarinios10\RestSharp.Portable.dll" />
+        <file src="RestSharp.Portable.WindowsPhone\Bin\Release\RestSharp.Portable.dll" target="lib\wp80\RestSharp.Portable.dll" />
+        <file src="RestSharp\RestSharp.iOS\bin\Release\RestSharp.iOS.dll" target="lib\XamariniOS10\RestSharp.iOS.dll" />
+        <file src="RestSharp.Portable.iOS\bin\Release\RestSharp.Portable.dll" target="lib\XamariniOS10\RestSharp.Portable.dll" />
+    </files>
+</package>

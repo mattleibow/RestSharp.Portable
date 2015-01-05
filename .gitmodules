@@ -1,0 +1,4 @@
+[submodule "RestSharp"]
+	path = RestSharp
+	url = git@github.com:mattleibow/RestSharp.git
+	branch = xamarin-update
